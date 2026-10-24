@@ -64,7 +64,7 @@ class TrainConfig:
     scale_dir_counts = [1, 8, 16]
 
     # 数据配置
-    data_root = "/home/litianhao/data"
+    data_root = "./data"
     train_data_dir = "train_model_432_raw_subbands_512x64"
     val_data_dir = "test_model_432_raw_subbands_512x64"
     max_train_data = 240

@@ -130,7 +130,7 @@ if __name__ == "__main__":
     print(f"每道截断时间范围 {cut_t_per_trace.min()} ~ {cut_t_per_trace.max()}")
     # ==========================================================================
 
-    # ----------------------保存空间域数据到 /home/litianhao/data/real_vsp_processed/ ----------------------
+    # ----------------------保存空间域数据 ----------------------
     np.save(os.path.join(OUTPUT_PROCESSED, "vz_spherical_gain.npy"), vz_gain)
     np.save(os.path.join(OUTPUT_PROCESSED, "vx_spherical_gain.npy"), vx_gain)
     np.save(os.path.join(OUTPUT_PROCESSED, "vz_lowpass.npy"), vz_lp)
