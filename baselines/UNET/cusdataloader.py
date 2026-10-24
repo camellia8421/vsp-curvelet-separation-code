@@ -1,5 +1,5 @@
-import torch  # 导入PyTorch深度学习框架
-import numpy as np  # 导入NumPy数值计算库
+import torch  
+import numpy as np 
 
 class npy_2to2_Dataloader_getindex():
     """
