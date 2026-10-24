@@ -95,14 +95,6 @@ python test.py    # evaluation (R², PSNR, SNR)
 ```
 All hyperparameters can be modified directly in `main.py` and `test.py`.
 
-## Notes
-- Curvelet transform parameters (scales, directions, sizes) are consistent across preprocessing, training and testing.
-- Default configuration: 3 scales, 8 angles at the finest scale, real-valued wrap-around mode.
-- Raw data and large checkpoint files should **not** be uploaded to this repository.
-
-## Citation
-If you use this code in your research, please cite our paper.
-
 ## License
 Code of the proposed method is released under the MIT License.
 Third-party libraries and datasets follow their respective licenses.
