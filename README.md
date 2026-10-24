@@ -98,6 +98,5 @@ All hyperparameters can be modified directly in `main.py` and `test.py`.
 ## License
 Code of the proposed method is released under the MIT License.
 Third-party libraries and datasets follow their respective licenses.
-```
 
 ---
